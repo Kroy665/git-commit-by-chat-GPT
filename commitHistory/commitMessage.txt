@@ -1,0 +1,10 @@
+Commit::fbec8fe 6ef2f92
+await askOpenAI(prompt+stdout + "
+SUMMARY:")
+Commit::6ef2f92 11d54a2
+await askOpenAI(prompt+stdout + "
+SUMMARY:")
+
+Commit::11d54a2 4b31c7e
+await askOpenAI(prompt+stdout + "
+SUMMARY:")
