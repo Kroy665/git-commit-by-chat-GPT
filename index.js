@@ -14,6 +14,12 @@ app.get('/about', (req, res) => {
     res.send('About Page');
 });
 
+// create a route for /contact
+app.get('/contact', (req, res) => {
+    res.send('Contact Page');
+});
+
+
 // listen for requests
 app.listen(3000, () => {
     console.log('Server is listening on port 3000');
