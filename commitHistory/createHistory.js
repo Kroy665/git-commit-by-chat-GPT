@@ -3,7 +3,7 @@ const {exec} = require("child_process");
 const fs = require("fs");
 
 const configuration = new Configuration({
-    apiKey: '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',
+    apiKey: process.env.OPEN_AI_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
